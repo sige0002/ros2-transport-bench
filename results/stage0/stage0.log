@@ -1,0 +1,15 @@
+[20:21:16] infra up, robot_ip=172.19.0.2 (netns mode unless STAGE0_ROBOT_IP is set)
+[20:22:00] comp_base_t0: R_pub=30.0 F_rec=0.999 F_through=None eth0=0.0MB/s (~0.0x payload)
+[20:22:45] comp_through_t0: R_pub=30.0 F_rec=1.0003 F_through=1.0003 eth0=3.607MB/s (~1.002x payload)
+[20:23:29] comp_base_t1: R_pub=30.0 F_rec=0.9999 F_through=None eth0=0.0MB/s (~0.0x payload)
+[20:24:14] comp_through_t1: R_pub=30.0 F_rec=1.0007 F_through=1.0007 eth0=3.608MB/s (~1.002x payload)
+[20:24:58] uncomp_base_defaultbuf_t0: R_pub=30.009 F_rec=0.168 F_through=None eth0=0.0MB/s (~0.0x payload)
+[20:25:42] uncomp_base_rmem64_t0: R_pub=30.009 F_rec=0.9998 F_through=None eth0=0.0MB/s (~0.0x payload)
+[20:26:27] uncomp_through_rmem64_t0: R_pub=30.008 F_rec=0.9999 F_through=0.9999 eth0=314.972MB/s (~1.001x payload)
+[20:27:11] uncomp_base_rmem64_t1: R_pub=30.009 F_rec=1.0004 F_through=None eth0=0.0MB/s (~0.0x payload)
+[20:27:56] uncomp_through_rmem64_t1: R_pub=30.007 F_rec=1.0 F_through=1.0 eth0=314.991MB/s (~1.001x payload)
+[20:28:40] rel_guard_base_t0: R_pub=30.006 F_rec=0.9999 F_through=None eth0=0.0MB/s (~0.0x payload)
+[20:29:25] rel_guard_bridged_shaped_t0: R_pub=30.006 F_rec=0.9987 F_through=0.075 eth0=23.926MB/s (~0.076x payload)
+[20:29:25] kernel buffers restored
+[20:30:06] natcompat_cam_comp: received=0 -> INCOMPATIBLE (bridge pair or PC-side republish required)
+[20:30:08] STAGE0 CELLS DONE

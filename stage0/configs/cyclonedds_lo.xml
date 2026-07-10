@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Stage-0: pin the zenoh-bridge-ros2dds embedded CycloneDDS to loopback.
+  The bridge's DDS side must only see its own namespace's graph (robot ns or
+  pc ns); the only traffic allowed on eth0 is the bridge's own zenoh TCP
+  session. Multicast off so discovery cannot leak either.
+-->
+<CycloneDDS xmlns="https://cdds.io/config">
+  <Domain Id="any">
+    <General>
+      <Interfaces>
+        <NetworkInterface name="lo"/>
+      </Interfaces>
+      <AllowMulticast>false</AllowMulticast>
+    </General>
+  </Domain>
+</CycloneDDS>
