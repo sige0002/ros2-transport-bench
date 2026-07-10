@@ -1,0 +1,55 @@
+{
+ "heavy": {
+  "4MB": {
+   "achieved": {
+    "fastdds_shm": 1000.08,
+    "fastdds_noshm": 1000.08,
+    "cyclone_noshm": 541.63,
+    "zenoh_noshm": 521.73,
+    "zenoh_shm": 1000.19
+   },
+   "picked_rate": 417
+  },
+  "8MB": {
+   "achieved": {
+    "fastdds_shm": 500.13,
+    "fastdds_noshm": 500.14,
+    "cyclone_noshm": 226.71,
+    "zenoh_noshm": 247.65,
+    "zenoh_shm": 409.38
+   },
+   "picked_rate": 181
+  }
+ },
+ "bag": {
+  "rate_mult": 1.0,
+  "per_topic": {
+   "/hsrb/head_rgbd_sensor/rgb/image_rect_color/compressed": {
+    "delivered_rate_each": 29.83,
+    "bw_MBps_each": 1.484,
+    "interarrival_med_ms": 33.465,
+    "interarrival_p99_ms": 44.111,
+    "interarrival_max_ms": 49.798,
+    "mean_size_KB": 48.6
+   },
+   "/hsrb/hand_camera/image_raw/compressed": {
+    "delivered_rate_each": 14.29,
+    "bw_MBps_each": 0.522,
+    "interarrival_med_ms": 76.798,
+    "interarrival_p99_ms": 113.748,
+    "interarrival_max_ms": 119.868,
+    "mean_size_KB": 35.7
+   },
+   "/hsrb/head_rgbd_sensor/depth_registered/image_rect_raw/compressedDepth": {
+    "delivered_rate_each": 29.93,
+    "bw_MBps_each": 3.593,
+    "interarrival_med_ms": 33.396,
+    "interarrival_p99_ms": 42.884,
+    "interarrival_max_ms": 46.232,
+    "mean_size_KB": 117.2
+   }
+  },
+  "lo_MBps": 5.691,
+  "cpu_player": 1.53
+ }
+}

@@ -1,0 +1,11 @@
+config         size  rmw_ok ach.rate  loss%  lat_med  cpu_pub payMB/s  netloMB/s  idle%  cov
+fastdds_shm    256B  True   100.0     0.0    0.326    10.5    0.026    9.631      60.6   True
+fastdds_shm    4MB   True   5.0       71.429 5.976    1.39    20.972   1.823      61.9   True
+fastdds_noshm  256B  True   100.0     0.0    0.357    10.68   0.026    -2.982     61.2   True
+fastdds_noshm  4MB   True   5.0       78.313 8.058    1.58    20.972   14.141     62.1   True
+cyclone_noshm  256B  True   100.0     0.0    0.285    10.37   0.026    11.759     61.1   True
+cyclone_noshm  4MB   True   5.0       57.447 11.017   2.14    20.972   12.833     61.1   False
+zenoh_noshm    256B  True   100.0     0.0    0.438    11.09   0.026    -21.423    61.2   True
+zenoh_noshm    4MB   True   5.0       0.0    8.567    2.35    20.972   15.809     61.6   True
+zenoh_shm      256B  True   None      100.0  None     None    0.026    -0.099     61.9   False
+zenoh_shm      4MB   True   None      100.0  None     None    20.972   22.086     62.5   False

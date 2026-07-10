@@ -1,0 +1,16 @@
+[probe] fastdds_shm 4MB: requested=1000.0Hz achieved=1000.08Hz loss=20.94% idle=80.6%
+[probe] fastdds_noshm 4MB: requested=1000.0Hz achieved=1000.08Hz loss=77.311% idle=82.3%
+[probe] cyclone_noshm 4MB: requested=1000.0Hz achieved=541.63Hz loss=50.592% idle=77.7%
+[probe] zenoh_noshm 4MB: requested=1000.0Hz achieved=521.73Hz loss=53.153% idle=74.8%
+[probe] zenoh_shm 4MB: requested=1000.0Hz achieved=1000.19Hz loss=77.43% idle=80.1%
+[probe] 4MB: min achieved=521.73Hz -> pick 417Hz
+[probe] fastdds_shm 8MB: requested=500.0Hz achieved=500.13Hz loss=37.315% idle=81.9%
+[probe] fastdds_noshm 8MB: requested=500.0Hz achieved=500.14Hz loss=84.847% idle=82.7%
+[probe] cyclone_noshm 8MB: requested=500.0Hz achieved=226.71Hz loss=53.72% idle=78.0%
+[probe] zenoh_noshm 8MB: requested=500.0Hz achieved=247.65Hz loss=52.519% idle=75.1%
+[probe] zenoh_shm 8MB: requested=500.0Hz achieved=409.38Hz loss=73.15% idle=75.7%
+[probe] 8MB: min achieved=226.71Hz -> pick 181Hz
+[probe] bag x1.0 /hsrb/head_rgbd_sensor/rgb/image_rect_color/compressed: rate=0.0Hz
+[probe] bag x1.0 /hsrb/hand_camera/image_raw/compressed: rate=0.0Hz
+[probe] bag x1.0 /hsrb/head_rgbd_sensor/depth_registered/image_rect_raw/compressedDepth: rate=0.0Hz
+[probe] DONE -> results/probe_rates.json

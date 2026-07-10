@@ -1,0 +1,8 @@
+[10:33:23] START heavy: 60 cells (4MB@417.0 8MB@181.0)
+[10:34:06] [1/60] heavy fastdds_shm 4MB@417.0 f1 t0 loss=55.448% ach=417.05Hz net-lo=0.001 idle=80.3%
+[10:34:49] [2/60] heavy fastdds_noshm 4MB@417.0 f1 t0 loss=52.578% ach=417.03Hz net-lo=1753.788 idle=79.9%
+[10:35:32] [3/60] heavy cyclone_noshm 4MB@417.0 f1 t0 loss=43.361% ach=417.05Hz net-lo=1759.999 idle=77.8%
+[10:36:15] [4/60] heavy zenoh_noshm 4MB@417.0 f1 t0 loss=38.224% ach=417.05Hz net-lo=1741.981 idle=75.2%
+[10:36:58] [5/60] heavy zenoh_shm 4MB@417.0 f1 t0 loss=45.475% ach=417.06Hz net-lo=0.066 idle=79.5%
+[10:37:42] [6/60] heavy fastdds_shm 4MB@417.0 f4 t0 loss=11.794% ach=417.04Hz net-lo=-0.017 idle=72.9%
+[10:38:26] [7/60] heavy fastdds_noshm 4MB@417.0 f4 t0 loss=55.537% ach=417.03Hz net-lo=7012.691 idle=60.0%

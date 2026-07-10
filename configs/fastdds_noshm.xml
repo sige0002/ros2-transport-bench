@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Fast DDS: disable shared memory entirely so only UDPv4 loopback is used.
+  A full transport override is required: define a UDPv4-only user transport and
+  set useBuiltinTransports=false (a partial profile would leave the builtin SHM
+  transport active). Applied via FASTRTPS_DEFAULT_PROFILES_FILE; is_default_profile
+  makes it apply to every participant. The lo-scaling check proves it engaged.
+-->
+<dds xmlns="http://www.eprosima.com/XMLSchemas/fastRTPS_Profiles">
+  <profiles>
+    <transport_descriptors>
+      <transport_descriptor>
+        <transport_id>udp_only_transport</transport_id>
+        <type>UDPv4</type>
+      </transport_descriptor>
+    </transport_descriptors>
+
+    <participant profile_name="udp_only_participant" is_default_profile="true">
+      <rtps>
+        <userTransports>
+          <transport_id>udp_only_transport</transport_id>
+        </userTransports>
+        <useBuiltinTransports>false</useBuiltinTransports>
+      </rtps>
+    </participant>
+  </profiles>
+</dds>
