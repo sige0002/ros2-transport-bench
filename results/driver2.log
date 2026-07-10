@@ -146,3 +146,47 @@
 [12:18:10] [19/20] qos zenoh_noshm reliable f4 t1 loss=0.0% ach=5.0Hz deliv=5.0Hz lat_med=10.342ms idle=90.3%
 [12:18:54] [20/20] qos zenoh_shm reliable f4 t1 loss=0.0% ach=5.0Hz deliv=5.0Hz lat_med=4.937ms idle=90.7%
 [12:18:54] DONE qos
+[15:13:46] START qos: 20 cells (10485760B@30.0 f1)
+[15:14:29] [1/20] qos fastdds_shm best_effort f1 t0 loss=92.255% ach=30.01Hz deliv=2.25Hz lat_med=12.333ms idle=90.2%
+[15:15:12] [2/20] qos fastdds_noshm best_effort f1 t0 loss=73.346% ach=30.01Hz deliv=7.05Hz lat_med=14.06ms idle=89.8%
+[15:15:55] [3/20] qos cyclone_noshm best_effort f1 t0 loss=73.122% ach=30.01Hz deliv=8.04Hz lat_med=15.184ms idle=89.4%
+[15:16:37] [4/20] qos zenoh_noshm best_effort f1 t0 loss=0.0% ach=30.01Hz deliv=29.96Hz lat_med=14.679ms idle=87.6%
+[15:17:20] [5/20] qos zenoh_shm best_effort f1 t0 loss=0.0% ach=30.01Hz deliv=30.05Hz lat_med=11.228ms idle=88.9%
+[15:18:03] [6/20] qos fastdds_shm reliable f1 t0 loss=0.0% ach=30.01Hz deliv=29.9Hz lat_med=31.533ms idle=88.4%
+[15:18:46] [7/20] qos fastdds_noshm reliable f1 t0 loss=0.0% ach=30.01Hz deliv=29.96Hz lat_med=32.822ms idle=88.1%
+[15:19:29] [8/20] qos cyclone_noshm reliable f1 t0 loss=0.0% ach=30.01Hz deliv=30.01Hz lat_med=16.82ms idle=87.0%
+[15:20:12] [9/20] qos zenoh_noshm reliable f1 t0 loss=0.0% ach=30.01Hz deliv=30.01Hz lat_med=15.415ms idle=87.6%
+[15:20:55] [10/20] qos zenoh_shm reliable f1 t0 loss=0.0% ach=30.01Hz deliv=30.0Hz lat_med=10.652ms idle=88.9%
+[15:21:38] [11/20] qos fastdds_shm best_effort f1 t1 loss=83.163% ach=30.01Hz deliv=4.95Hz lat_med=12.316ms idle=90.3%
+[15:22:20] [12/20] qos fastdds_noshm best_effort f1 t1 loss=85.333% ach=30.01Hz deliv=4.4Hz lat_med=13.586ms idle=90.1%
+[15:23:03] [13/20] qos cyclone_noshm best_effort f1 t1 loss=76.728% ach=30.01Hz deliv=6.9Hz lat_med=14.969ms idle=89.6%
+[15:23:46] [14/20] qos zenoh_noshm best_effort f1 t1 loss=0.0% ach=30.01Hz deliv=30.02Hz lat_med=14.935ms idle=87.5%
+[15:24:29] [15/20] qos zenoh_shm best_effort f1 t1 loss=0.0% ach=30.01Hz deliv=30.02Hz lat_med=11.082ms idle=89.0%
+[15:25:12] [16/20] qos fastdds_shm reliable f1 t1 loss=0.0% ach=30.01Hz deliv=29.95Hz lat_med=31.129ms idle=88.7%
+[15:25:54] [17/20] qos fastdds_noshm reliable f1 t1 loss=0.0% ach=30.01Hz deliv=30.06Hz lat_med=32.745ms idle=88.2%
+[15:26:37] [18/20] qos cyclone_noshm reliable f1 t1 loss=0.167% ach=30.01Hz deliv=29.95Hz lat_med=17.691ms idle=86.8%
+[15:27:20] [19/20] qos zenoh_noshm reliable f1 t1 loss=0.0% ach=30.01Hz deliv=30.01Hz lat_med=14.874ms idle=87.6%
+[15:28:03] [20/20] qos zenoh_shm reliable f1 t1 loss=0.0% ach=30.01Hz deliv=30.0Hz lat_med=11.123ms idle=89.0%
+[15:28:03] DONE qos
+[15:28:03] START qos: 20 cells (10485760B@30.0 f4)
+[15:28:47] [1/20] qos fastdds_shm best_effort f4 t0 loss=64.188% ach=30.0Hz deliv=10.71Hz lat_med=14.155ms idle=86.6%
+[15:29:31] [2/20] qos fastdds_noshm best_effort f4 t0 loss=30.503% ach=30.0Hz deliv=20.75Hz lat_med=19.759ms idle=82.8%
+[15:30:15] [3/20] qos cyclone_noshm best_effort f4 t0 loss=11.427% ach=30.01Hz deliv=26.56Hz lat_med=26.016ms idle=77.2%
+[15:30:58] [4/20] qos zenoh_noshm best_effort f4 t0 loss=0.0% ach=30.01Hz deliv=30.01Hz lat_med=20.696ms idle=77.8%
+[15:31:42] [5/20] qos zenoh_shm best_effort f4 t0 loss=0.0% ach=30.01Hz deliv=29.98Hz lat_med=11.009ms idle=83.2%
+[15:32:26] [6/20] qos fastdds_shm reliable f4 t0 loss=0.0% ach=30.0Hz deliv=30.01Hz lat_med=22.044ms idle=81.4%
+[15:33:10] [7/20] qos fastdds_noshm reliable f4 t0 loss=0.0% ach=30.0Hz deliv=30.02Hz lat_med=21.332ms idle=79.9%
+[15:33:54] [8/20] qos cyclone_noshm reliable f4 t0 loss=0.0% ach=30.01Hz deliv=30.01Hz lat_med=25.745ms idle=76.5%
+[15:34:38] [9/20] qos zenoh_noshm reliable f4 t0 loss=0.0% ach=30.01Hz deliv=30.02Hz lat_med=14.835ms idle=77.9%
+[15:35:21] [10/20] qos zenoh_shm reliable f4 t0 loss=0.0% ach=30.01Hz deliv=30.01Hz lat_med=11.141ms idle=83.1%
+[15:36:05] [11/20] qos fastdds_shm best_effort f4 t1 loss=70.282% ach=30.01Hz deliv=8.81Hz lat_med=14.148ms idle=87.0%
+[15:36:49] [12/20] qos fastdds_noshm best_effort f4 t1 loss=57.135% ach=30.0Hz deliv=12.79Hz lat_med=17.763ms idle=84.8%
+[15:37:33] [13/20] qos cyclone_noshm best_effort f4 t1 loss=20.159% ach=30.01Hz deliv=23.92Hz lat_med=26.326ms idle=77.7%
+[15:38:16] [14/20] qos zenoh_noshm best_effort f4 t1 loss=0.0% ach=30.01Hz deliv=30.01Hz lat_med=15.718ms idle=77.2%
+[15:39:00] [15/20] qos zenoh_shm best_effort f4 t1 loss=0.0% ach=30.01Hz deliv=30.01Hz lat_med=11.102ms idle=83.0%
+[15:39:44] [16/20] qos fastdds_shm reliable f4 t1 loss=0.0% ach=30.01Hz deliv=30.01Hz lat_med=22.259ms idle=81.2%
+[15:40:28] [17/20] qos fastdds_noshm reliable f4 t1 loss=0.0% ach=30.0Hz deliv=30.02Hz lat_med=21.306ms idle=79.8%
+[15:41:12] [18/20] qos cyclone_noshm reliable f4 t1 loss=0.0% ach=30.01Hz deliv=30.02Hz lat_med=25.618ms idle=76.5%
+[15:41:56] [19/20] qos zenoh_noshm reliable f4 t1 loss=0.0% ach=30.01Hz deliv=29.97Hz lat_med=18.67ms idle=77.5%
+[15:42:39] [20/20] qos zenoh_shm reliable f4 t1 loss=0.0% ach=30.01Hz deliv=30.0Hz lat_med=11.237ms idle=83.2%
+[15:42:39] DONE qos
