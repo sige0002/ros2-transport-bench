@@ -1,0 +1,25 @@
+[expA] raising kernel buffers to 64MiB (was rmem_max=212992 rmem_default=212992)
+67108864
+67108864
+[expA 1/12] fastdds_shm 4MB@5.0 t7 loss=61.364% deliv=1.7Hz net-lo=0.001 idle=90.5%
+[expA 2/12] fastdds_noshm 4MB@5.0 t7 loss=0.0% deliv=5.0Hz net-lo=21.039 idle=90.4%
+[expA 3/12] cyclone_noshm 4MB@5.0 t7 loss=0.0% deliv=5.0Hz net-lo=21.113 idle=90.7%
+[expA 4/12] fastdds_shm 10MB@30.0 t7 loss=76.37% deliv=6.9Hz net-lo=0.0 idle=89.4%
+[expA 5/12] fastdds_noshm 10MB@30.0 t7 loss=0.0% deliv=29.97Hz net-lo=315.591 idle=87.7%
+[expA 6/12] cyclone_noshm 10MB@30.0 t7 loss=0.0% deliv=30.01Hz net-lo=316.687 idle=87.6%
+[expA 7/12] fastdds_shm 4MB@5.0 t8 loss=52.326% deliv=2.05Hz net-lo=0.0 idle=91.2%
+[expA 8/12] fastdds_noshm 4MB@5.0 t8 loss=0.0% deliv=5.0Hz net-lo=21.036 idle=91.1%
+[expA 9/12] cyclone_noshm 4MB@5.0 t8 loss=0.0% deliv=5.0Hz net-lo=21.117 idle=90.9%
+[expA 10/12] fastdds_shm 10MB@30.0 t8 loss=71.838% deliv=8.35Hz net-lo=0.001 idle=89.7%
+[expA 11/12] fastdds_noshm 10MB@30.0 t8 loss=0.0% deliv=30.02Hz net-lo=315.064 idle=88.4%
+[expA 12/12] cyclone_noshm 10MB@30.0 t8 loss=0.0% deliv=30.02Hz net-lo=316.211 idle=87.6%
+[sysctl] restored: rmem_max=212992 rmem_default=212992
+[expB 1/8] fastdds_ld 4MB@5.0 f1 t7 loss=63.235% deliv=1.25Hz lat=5.323ms net-lo=-0.001 idle=91.2%
+[expB 2/8] fastdds_ld 4MB@5.0 f4 t7 loss=66.066% deliv=1.65Hz lat=5.738ms net-lo=-0.023 idle=90.8%
+[expB 3/8] fastdds_ld 10MB@30.0 f1 t7 loss=91.176% deliv=1.5Hz lat=13.02ms net-lo=-0.001 idle=90.4%
+[expB 4/8] fastdds_ld 10MB@30.0 f4 t7 loss=66.088% deliv=10.02Hz lat=13.937ms net-lo=-0.017 idle=86.7%
+[expB 5/8] fastdds_ld 4MB@5.0 f1 t8 loss=100.0% deliv=0.0Hz lat=Nonems net-lo=0.001 idle=91.2%
+[expB 6/8] fastdds_ld 4MB@5.0 f4 t8 loss=64.613% deliv=1.73Hz lat=6.018ms net-lo=-0.066 idle=90.6%
+[expB 7/8] fastdds_ld 10MB@30.0 f1 t8 loss=73.49% deliv=7.91Hz lat=12.861ms net-lo=-0.001 idle=89.5%
+[expB 8/8] fastdds_ld 10MB@30.0 f4 t8 loss=62.768% deliv=11.16Hz lat=14.103ms net-lo=-0.064 idle=87.3%
+FALSIFICATION DONE

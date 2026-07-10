@@ -6,12 +6,13 @@ ROS 2 Jazzy の RMW 3 実装 × SHM 有無の 5 構成
 ベンチマークと、その測定結果。
 
 **結果と考察は [REPORT.md](REPORT.md)**(結論先出し)。
-ひとことで: 1MB/4MB ペイロードで Zenoh はロス 0%、DDS ベストエフォートは 43〜82% シェッド
-(ただし reliable QoS にすればロス 0%・レイテンシ増)。実機模擬 31 トピック負荷でも同構図で、
-Zenoh SHM が品質・レイテンシ・CPU を両立。**実機の非圧縮カメラ相当 10MB@30Hz(300MB/s)でも
-Zenoh はロス 0%・11ms を維持、DDS は reliable 化で全量配送できるが p99 100〜222ms のテール**。
-一方、実 rosbag リプレイ(~5.6MB/s)では 5 構成に配送品質の差はなし — 差が出るのは
-メッセージ単体 ~1MB 超から。
+ひとことで: **無チューニング(vendor default・カーネル既定)のスナップショット比較**として、
+1MB/4MB ペイロードで Zenoh はロス 0%、DDS best_effort は 43〜82% シェッド。非圧縮カメラ想定点
+10MB@30Hz(300MB/s)でも Zenoh はロス 0%・11ms を維持。ただし対照実験で **DDS(UDP)のロスは
+カーネルバッファ引き上げ(sysctl 1 行)で全点 0% になる**ことも確認済みで、これは「素の設定で
+運べるか」の差であってトランスポートの本質的優劣ではない。実 rosbag リプレイ(~5.6MB/s)では
+5 構成に配送品質の差はなし。本ベンチは「Zenoh 有利に仕組まれていないか」の独立監査を受けており、
+その記録と修正は [REVIEW.md](REVIEW.md)。
 
 ## リポジトリ構成
 
@@ -25,7 +26,9 @@ Zenoh はロス 0%・11ms を維持、DDS は reliable 化で全量配送でき�
 | `driver2.py` | 追加ファミリ: heavy(飽和域)/ composite(31 トピック模擬)/ bag(実 MCAP リプレイ)/ qos(BE vs reliable) |
 | `probe_rates.py` | heavy のレート・bag の自然レートを決めるプローブ |
 | `run_additions.sh` | 追加ファミリ一括実行(実測プローブ値入り) |
-| `run_10mb.sh` | 実機カメラ域 10MB@30Hz ファミリ(点対点 + QoS 対比、REPORT.md §6.5) |
+| `run_10mb.sh` | 非圧縮カメラ想定点 10MB@30Hz ファミリ(点対点 + QoS 対比、REPORT.md §6.5) |
+| `run_falsification.sh` | 対照実験: カーネルバッファ 64MiB / Fast DDS LARGE_DATA(REPORT.md §6.6) |
+| `REVIEW.md` | 敵対的レビュー(独立監査)の記録と修正対応 |
 | `aggregate.py` / `aggregate2.py` / `analyze_spread.py` | 集計(3 トライアル中央値)・ばらつき分析 |
 | `results/` | 生データ(セル単位 JSONL)・ドライバログ・集計済みサマリ |
 
@@ -48,10 +51,13 @@ python3 driver.py full            # -> results/cells.jsonl, results/driver.log
 python3 probe_rates.py            # -> results/probe_rates.json
 bash run_additions.sh             # -> results/cells_heavy.jsonl, composite.jsonl, bag.jsonl, qos.jsonl
 
-# 5. 実機カメラ域 10MB@30Hz ファミリ(~50min)
+# 5. 非圧縮カメラ想定点 10MB@30Hz ファミリ(~50min)
 bash run_10mb.sh                  # -> results/cells_10mb.jsonl, qos_10mb_f{1,4}.jsonl
 
-# 6. 集計
+# 6. 対照実験(~15min、sysctl を一時変更するため要権限。終了時に自動復元)
+bash run_falsification.sh         # -> results/cells_rmem.jsonl, cells_ld.jsonl
+
+# 7. 集計
 python3 aggregate.py              # ベース+heavy -> markdown 表 + results/summary.json
 python3 aggregate2.py             # composite / bag / qos -> markdown 表
 python3 analyze_spread.py         # per-trial ばらつき
