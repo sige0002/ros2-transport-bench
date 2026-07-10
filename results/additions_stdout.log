@@ -9,3 +9,144 @@
 [10:36:58] [5/60] heavy zenoh_shm 4MB@417.0 f1 t0 loss=45.475% ach=417.06Hz net-lo=0.066 idle=79.5%
 [10:37:42] [6/60] heavy fastdds_shm 4MB@417.0 f4 t0 loss=11.794% ach=417.04Hz net-lo=-0.017 idle=72.9%
 [10:38:26] [7/60] heavy fastdds_noshm 4MB@417.0 f4 t0 loss=55.537% ach=417.03Hz net-lo=7012.691 idle=60.0%
+[10:39:10] [8/60] heavy cyclone_noshm 4MB@417.0 f4 t0 loss=14.088% ach=172.13Hz net-lo=-0.001 idle=61.0%
+[10:39:54] [9/60] heavy zenoh_noshm 4MB@417.0 f4 t0 loss=0.102% ach=172.22Hz net-lo=2898.572 idle=59.9%
+[10:40:37] [10/60] heavy zenoh_shm 4MB@417.0 f4 t0 loss=49.466% ach=417.06Hz net-lo=0.691 idle=63.5%
+[10:41:21] [11/60] heavy fastdds_shm 8MB@181.0 f1 t0 loss=63.397% ach=181.03Hz net-lo=0.0 idle=84.0%
+[10:42:03] [12/60] heavy fastdds_noshm 8MB@181.0 f1 t0 loss=76.978% ach=181.05Hz net-lo=1522.191 idle=85.0%
+[10:42:46] [13/60] heavy cyclone_noshm 8MB@181.0 f1 t0 loss=37.973% ach=181.05Hz net-lo=1527.811 idle=78.8%
+[10:43:29] [14/60] heavy zenoh_noshm 8MB@181.0 f1 t0 loss=35.687% ach=181.04Hz net-lo=1521.332 idle=76.8%
+[10:44:12] [15/60] heavy zenoh_shm 8MB@181.0 f1 t0 loss=33.868% ach=181.03Hz net-lo=700.391 idle=80.2%
+[10:44:56] [16/60] heavy fastdds_shm 8MB@181.0 f4 t0 loss=54.224% ach=181.04Hz net-lo=-0.017 idle=66.6%
+[10:45:40] [17/60] heavy fastdds_noshm 8MB@181.0 f4 t0 loss=56.584% ach=181.03Hz net-lo=6088.034 idle=63.6%
+[10:46:24] [18/60] heavy cyclone_noshm 8MB@181.0 f4 t0 loss=24.437% ach=85.23Hz net-lo=-0.001 idle=63.1%
+[10:47:08] [19/60] heavy zenoh_noshm 8MB@181.0 f4 t0 loss=0.485% ach=89.42Hz net-lo=3025.84 idle=58.6%
+[10:47:52] [20/60] heavy zenoh_shm 8MB@181.0 f4 t0 loss=34.278% ach=155.28Hz net-lo=2745.431 idle=57.1%
+[10:48:34] [21/60] heavy fastdds_shm 4MB@417.0 f1 t1 loss=41.397% ach=417.04Hz net-lo=-0.002 idle=84.3%
+[10:49:18] [22/60] heavy fastdds_noshm 4MB@417.0 f1 t1 loss=35.205% ach=417.06Hz net-lo=1753.793 idle=84.0%
+[10:50:00] [23/60] heavy cyclone_noshm 4MB@417.0 f1 t1 loss=45.414% ach=417.06Hz net-lo=1759.954 idle=78.5%
+[10:50:43] [24/60] heavy zenoh_noshm 4MB@417.0 f1 t1 loss=38.293% ach=417.06Hz net-lo=1740.342 idle=75.4%
+[10:51:26] [25/60] heavy zenoh_shm 4MB@417.0 f1 t1 loss=34.277% ach=417.08Hz net-lo=0.068 idle=80.1%
+[10:52:10] [26/60] heavy fastdds_shm 4MB@417.0 f4 t1 loss=11.758% ach=417.03Hz net-lo=-0.011 idle=73.4%
+[10:52:54] [27/60] heavy fastdds_noshm 4MB@417.0 f4 t1 loss=55.216% ach=417.03Hz net-lo=7013.009 idle=61.0%
+[10:53:38] [28/60] heavy cyclone_noshm 4MB@417.0 f4 t1 loss=29.357% ach=176.83Hz net-lo=-0.002 idle=62.5%
+[10:54:22] [29/60] heavy zenoh_noshm 4MB@417.0 f4 t1 loss=0.197% ach=174.42Hz net-lo=2878.29 idle=59.8%
+[10:55:05] [30/60] heavy zenoh_shm 4MB@417.0 f4 t1 loss=50.377% ach=417.06Hz net-lo=0.479 idle=63.5%
+[10:55:49] [31/60] heavy fastdds_shm 8MB@181.0 f1 t1 loss=67.156% ach=181.04Hz net-lo=-0.0 idle=84.6%
+[10:56:31] [32/60] heavy fastdds_noshm 8MB@181.0 f1 t1 loss=75.477% ach=181.03Hz net-lo=1522.443 idle=85.1%
+[10:57:14] [33/60] heavy cyclone_noshm 8MB@181.0 f1 t1 loss=54.186% ach=181.04Hz net-lo=1527.995 idle=80.1%
+[10:57:57] [34/60] heavy zenoh_noshm 8MB@181.0 f1 t1 loss=36.439% ach=181.05Hz net-lo=1520.998 idle=76.9%
+[10:58:40] [35/60] heavy zenoh_shm 8MB@181.0 f1 t1 loss=34.753% ach=181.02Hz net-lo=702.758 idle=80.6%
+[10:59:24] [36/60] heavy fastdds_shm 8MB@181.0 f4 t1 loss=44.909% ach=177.6Hz net-lo=-0.001 idle=72.0%
+[11:00:08] [37/60] heavy fastdds_noshm 8MB@181.0 f4 t1 loss=56.19% ach=181.02Hz net-lo=6087.547 idle=64.1%
+[11:00:52] [38/60] heavy cyclone_noshm 8MB@181.0 f4 t1 loss=16.43% ach=84.41Hz net-lo=-0.005 idle=62.3%
+[11:01:35] [39/60] heavy zenoh_noshm 8MB@181.0 f4 t1 loss=0.0% ach=85.42Hz net-lo=2893.434 idle=60.5%
+[11:02:19] [40/60] heavy zenoh_shm 8MB@181.0 f4 t1 loss=36.846% ach=156.51Hz net-lo=2821.161 idle=57.7%
+[11:03:02] [41/60] heavy fastdds_shm 4MB@417.0 f1 t2 loss=54.501% ach=417.06Hz net-lo=-0.002 idle=80.9%
+[11:03:45] [42/60] heavy fastdds_noshm 4MB@417.0 f1 t2 loss=83.874% ach=417.04Hz net-lo=1753.806 idle=84.9%
+[11:04:28] [43/60] heavy cyclone_noshm 4MB@417.0 f1 t2 loss=38.003% ach=417.05Hz net-lo=1759.935 idle=78.2%
+[11:05:11] [44/60] heavy zenoh_noshm 4MB@417.0 f1 t2 loss=44.386% ach=417.02Hz net-lo=1736.747 idle=75.5%
+[11:05:53] [45/60] heavy zenoh_shm 4MB@417.0 f1 t2 loss=37.761% ach=417.09Hz net-lo=0.067 idle=80.2%
+[11:06:37] [46/60] heavy fastdds_shm 4MB@417.0 f4 t2 loss=11.756% ach=417.04Hz net-lo=-0.013 idle=73.4%
+[11:07:21] [47/60] heavy fastdds_noshm 4MB@417.0 f4 t2 loss=47.344% ach=417.02Hz net-lo=7012.829 idle=63.4%
+[11:08:05] [48/60] heavy cyclone_noshm 4MB@417.0 f4 t2 loss=21.188% ach=175.03Hz net-lo=-0.002 idle=62.0%
+[11:08:49] [49/60] heavy zenoh_noshm 4MB@417.0 f4 t2 loss=0.0% ach=172.44Hz net-lo=2915.248 idle=59.9%
+[11:09:33] [50/60] heavy zenoh_shm 4MB@417.0 f4 t2 loss=47.207% ach=417.07Hz net-lo=1.111 idle=63.6%
+[11:10:16] [51/60] heavy fastdds_shm 8MB@181.0 f1 t2 loss=66.057% ach=181.05Hz net-lo=0.001 idle=84.3%
+[11:10:59] [52/60] heavy fastdds_noshm 8MB@181.0 f1 t2 loss=76.495% ach=181.03Hz net-lo=1522.57 idle=85.2%
+[11:11:42] [53/60] heavy cyclone_noshm 8MB@181.0 f1 t2 loss=40.736% ach=181.03Hz net-lo=1527.775 idle=79.4%
+[11:12:24] [54/60] heavy zenoh_noshm 8MB@181.0 f1 t2 loss=37.942% ach=181.03Hz net-lo=1523.243 idle=77.0%
+[11:13:07] [55/60] heavy zenoh_shm 8MB@181.0 f1 t2 loss=37.887% ach=181.04Hz net-lo=717.645 idle=80.2%
+[11:13:51] [56/60] heavy fastdds_shm 8MB@181.0 f4 t2 loss=54.011% ach=181.04Hz net-lo=-0.0 idle=66.7%
+[11:14:35] [57/60] heavy fastdds_noshm 8MB@181.0 f4 t2 loss=48.978% ach=181.01Hz net-lo=6087.744 idle=66.3%
+[11:15:19] [58/60] heavy cyclone_noshm 8MB@181.0 f4 t2 loss=17.26% ach=84.29Hz net-lo=-0.002 idle=62.4%
+[11:16:03] [59/60] heavy zenoh_noshm 8MB@181.0 f4 t2 loss=0.0% ach=86.85Hz net-lo=2930.508 idle=59.5%
+[11:16:47] [60/60] heavy zenoh_shm 8MB@181.0 f4 t2 loss=35.92% ach=153.31Hz net-lo=2760.508 idle=57.3%
+[11:16:47] DONE heavy
+[11:16:47] START composite: 30 cells
+[11:17:40] [1/30] composite fastdds_shm f1 t0 img(loss=31.437% lat=3.356ms) num(loss=0.022%) cpu_sub_tot=19.88 net-lo=0.0 idle=89.0%
+[11:18:33] [2/30] composite fastdds_noshm f1 t0 img(loss=51.94% lat=3.196ms) num(loss=0.174%) cpu_sub_tot=17.57 net-lo=105.759 idle=90.1%
+[11:19:26] [3/30] composite cyclone_noshm f1 t0 img(loss=62.39% lat=2.816ms) num(loss=0.963%) cpu_sub_tot=18.65 net-lo=106.008 idle=89.6%
+[11:20:19] [4/30] composite zenoh_noshm f1 t0 img(loss=0.0% lat=3.366ms) num(loss=0.0%) cpu_sub_tot=28.89 net-lo=105.564 idle=88.8%
+[11:21:12] [5/30] composite zenoh_shm f1 t0 img(loss=0.0% lat=3.537ms) num(loss=0.0%) cpu_sub_tot=22.85 net-lo=0.51 idle=89.3%
+[11:22:06] [6/30] composite fastdds_shm f4 t0 img(loss=28.907% lat=2.986ms) num(loss=0.086%) cpu_sub_tot=83.29 net-lo=-0.032 idle=85.7%
+[11:23:00] [7/30] composite fastdds_noshm f4 t0 img(loss=12.15% lat=2.914ms) num(loss=0.007%) cpu_sub_tot=104.68 net-lo=422.51 idle=84.1%
+[11:23:55] [8/30] composite cyclone_noshm f4 t0 img(loss=3.464% lat=2.992ms) num(loss=0.0%) cpu_sub_tot=123.71 net-lo=-0.003 idle=83.1%
+[11:24:49] [9/30] composite zenoh_noshm f4 t0 img(loss=0.0% lat=2.771ms) num(loss=0.0%) cpu_sub_tot=123.77 net-lo=422.486 idle=83.2%
+[11:25:43] [10/30] composite zenoh_shm f4 t0 img(loss=0.0% lat=3.585ms) num(loss=0.0%) cpu_sub_tot=90.11 net-lo=2.003 idle=85.5%
+[11:26:36] [11/30] composite fastdds_shm f1 t1 img(loss=37.718% lat=3.277ms) num(loss=0.152%) cpu_sub_tot=18.89 net-lo=-0.0 idle=90.0%
+[11:27:29] [12/30] composite fastdds_noshm f1 t1 img(loss=43.138% lat=3.2ms) num(loss=0.415%) cpu_sub_tot=18.97 net-lo=105.75 idle=89.7%
+[11:28:22] [13/30] composite cyclone_noshm f1 t1 img(loss=62.732% lat=2.823ms) num(loss=1.252%) cpu_sub_tot=17.39 net-lo=106.018 idle=89.8%
+[11:29:15] [14/30] composite zenoh_noshm f1 t1 img(loss=0.0% lat=3.092ms) num(loss=0.0%) cpu_sub_tot=27.31 net-lo=105.565 idle=89.0%
+[11:30:08] [15/30] composite zenoh_shm f1 t1 img(loss=0.0% lat=3.492ms) num(loss=0.0%) cpu_sub_tot=21.56 net-lo=0.513 idle=89.6%
+[11:31:02] [16/30] composite fastdds_shm f4 t1 img(loss=31.268% lat=1.026ms) num(loss=0.157%) cpu_sub_tot=61.27 net-lo=0.0 idle=87.7%
+[11:31:57] [17/30] composite fastdds_noshm f4 t1 img(loss=9.552% lat=3.107ms) num(loss=0.026%) cpu_sub_tot=101.7 net-lo=422.553 idle=84.4%
+[11:32:51] [18/30] composite cyclone_noshm f4 t1 img(loss=4.45% lat=2.932ms) num(loss=0.0%) cpu_sub_tot=123.89 net-lo=-0.002 idle=82.7%
+[11:33:45] [19/30] composite zenoh_noshm f4 t1 img(loss=0.0% lat=2.785ms) num(loss=0.0%) cpu_sub_tot=125.87 net-lo=421.911 idle=83.1%
+[11:34:39] [20/30] composite zenoh_shm f4 t1 img(loss=0.0% lat=3.554ms) num(loss=0.0%) cpu_sub_tot=89.81 net-lo=2.011 idle=85.6%
+[11:35:32] [21/30] composite fastdds_shm f1 t2 img(loss=38.402% lat=3.023ms) num(loss=0.207%) cpu_sub_tot=18.21 net-lo=0.001 idle=90.1%
+[11:36:25] [22/30] composite fastdds_noshm f1 t2 img(loss=45.68% lat=3.082ms) num(loss=0.296%) cpu_sub_tot=17.11 net-lo=105.75 idle=90.4%
+[11:37:17] [23/30] composite cyclone_noshm f1 t2 img(loss=61.139% lat=2.966ms) num(loss=1.237%) cpu_sub_tot=18.76 net-lo=105.933 idle=89.6%
+[11:38:11] [24/30] composite zenoh_noshm f1 t2 img(loss=0.0% lat=3.224ms) num(loss=0.0%) cpu_sub_tot=28.26 net-lo=105.559 idle=88.8%
+[11:39:03] [25/30] composite zenoh_shm f1 t2 img(loss=0.0% lat=3.544ms) num(loss=0.0%) cpu_sub_tot=22.76 net-lo=0.507 idle=89.7%
+[11:39:57] [26/30] composite fastdds_shm f4 t2 img(loss=30.853% lat=3.001ms) num(loss=0.133%) cpu_sub_tot=81.91 net-lo=-0.053 idle=85.7%
+[11:40:52] [27/30] composite fastdds_noshm f4 t2 img(loss=12.947% lat=3.043ms) num(loss=0.002%) cpu_sub_tot=97.68 net-lo=423.385 idle=84.8%
+[11:41:46] [28/30] composite cyclone_noshm f4 t2 img(loss=3.447% lat=2.916ms) num(loss=0.0%) cpu_sub_tot=121.73 net-lo=-0.003 idle=82.7%
+[11:42:40] [29/30] composite zenoh_noshm f4 t2 img(loss=0.0% lat=2.755ms) num(loss=0.0%) cpu_sub_tot=122.98 net-lo=422.616 idle=83.4%
+[11:43:34] [30/30] composite zenoh_shm f4 t2 img(loss=0.0% lat=3.53ms) num(loss=0.0%) cpu_sub_tot=90.34 net-lo=1.995 idle=85.7%
+[11:43:34] DONE composite
+[11:43:34] START bag: 30 cells (rate x1.0, 3 topics)
+[11:44:15] [1/30] bag fastdds_shm f1 t0 rgb(rate=29.86Hz jit_p99=44.204ms) cpu_player=1.31 cpu_sub_tot=3.25 lo=0.036 idle=90.7%
+[11:44:56] [2/30] bag fastdds_noshm f1 t0 rgb(rate=29.86Hz jit_p99=44.104ms) cpu_player=1.55 cpu_sub_tot=3.4 lo=5.665 idle=91.2%
+[11:45:37] [3/30] bag cyclone_noshm f1 t0 rgb(rate=29.88Hz jit_p99=44.067ms) cpu_player=1.45 cpu_sub_tot=3.54 lo=5.699 idle=91.1%
+[11:46:18] [4/30] bag zenoh_noshm f1 t0 rgb(rate=29.81Hz jit_p99=44.132ms) cpu_player=1.93 cpu_sub_tot=3.69 lo=5.667 idle=91.2%
+[11:46:59] [5/30] bag zenoh_shm f1 t0 rgb(rate=29.81Hz jit_p99=44.166ms) cpu_player=1.76 cpu_sub_tot=3.65 lo=0.047 idle=91.2%
+[11:47:41] [6/30] bag fastdds_shm f4 t0 rgb(rate=29.86Hz jit_p99=44.002ms) cpu_player=1.43 cpu_sub_tot=12.87 lo=0.04 idle=90.9%
+[11:48:23] [7/30] bag fastdds_noshm f4 t0 rgb(rate=29.86Hz jit_p99=44.024ms) cpu_player=1.88 cpu_sub_tot=13.28 lo=22.547 idle=90.7%
+[11:49:05] [8/30] bag cyclone_noshm f4 t0 rgb(rate=29.83Hz jit_p99=44.184ms) cpu_player=2.29 cpu_sub_tot=14.35 lo=0.035 idle=90.5%
+[11:49:47] [9/30] bag zenoh_noshm f4 t0 rgb(rate=29.83Hz jit_p99=43.994ms) cpu_player=2.83 cpu_sub_tot=14.45 lo=22.55 idle=90.6%
+[11:50:28] [10/30] bag zenoh_shm f4 t0 rgb(rate=29.84Hz jit_p99=44.178ms) cpu_player=2.04 cpu_sub_tot=14.25 lo=0.089 idle=90.5%
+[11:51:10] [11/30] bag fastdds_shm f1 t1 rgb(rate=29.8Hz jit_p99=44.284ms) cpu_player=1.3 cpu_sub_tot=3.34 lo=0.036 idle=91.2%
+[11:51:50] [12/30] bag fastdds_noshm f1 t1 rgb(rate=29.8Hz jit_p99=44.152ms) cpu_player=1.54 cpu_sub_tot=3.4 lo=5.669 idle=91.1%
+[11:52:32] [13/30] bag cyclone_noshm f1 t1 rgb(rate=29.86Hz jit_p99=44.034ms) cpu_player=1.38 cpu_sub_tot=3.41 lo=5.699 idle=91.1%
+[11:53:13] [14/30] bag zenoh_noshm f1 t1 rgb(rate=29.87Hz jit_p99=44.031ms) cpu_player=1.94 cpu_sub_tot=3.73 lo=5.665 idle=91.2%
+[11:53:54] [15/30] bag zenoh_shm f1 t1 rgb(rate=29.86Hz jit_p99=43.968ms) cpu_player=1.74 cpu_sub_tot=3.68 lo=0.048 idle=91.0%
+[11:54:36] [16/30] bag fastdds_shm f4 t1 rgb(rate=29.83Hz jit_p99=44.187ms) cpu_player=1.41 cpu_sub_tot=12.87 lo=0.04 idle=90.7%
+[11:55:18] [17/30] bag fastdds_noshm f4 t1 rgb(rate=29.85Hz jit_p99=43.912ms) cpu_player=1.83 cpu_sub_tot=13.05 lo=22.571 idle=90.4%
+[11:56:00] [18/30] bag cyclone_noshm f4 t1 rgb(rate=29.83Hz jit_p99=44.158ms) cpu_player=2.26 cpu_sub_tot=13.94 lo=0.035 idle=90.3%
+[11:56:42] [19/30] bag zenoh_noshm f4 t1 rgb(rate=29.84Hz jit_p99=43.957ms) cpu_player=2.86 cpu_sub_tot=14.39 lo=22.554 idle=90.5%
+[11:57:23] [20/30] bag zenoh_shm f4 t1 rgb(rate=29.83Hz jit_p99=44.038ms) cpu_player=1.98 cpu_sub_tot=14.3 lo=0.089 idle=90.4%
+[11:58:04] [21/30] bag fastdds_shm f1 t2 rgb(rate=29.86Hz jit_p99=43.975ms) cpu_player=1.3 cpu_sub_tot=3.31 lo=0.036 idle=91.1%
+[11:58:45] [22/30] bag fastdds_noshm f1 t2 rgb(rate=29.88Hz jit_p99=44.117ms) cpu_player=1.51 cpu_sub_tot=3.33 lo=5.671 idle=91.2%
+[11:59:26] [23/30] bag cyclone_noshm f1 t2 rgb(rate=29.83Hz jit_p99=43.986ms) cpu_player=1.42 cpu_sub_tot=3.36 lo=5.696 idle=91.2%
+[12:00:08] [24/30] bag zenoh_noshm f1 t2 rgb(rate=29.83Hz jit_p99=44.177ms) cpu_player=1.99 cpu_sub_tot=3.79 lo=5.664 idle=90.9%
+[12:00:49] [25/30] bag zenoh_shm f1 t2 rgb(rate=29.85Hz jit_p99=44.0ms) cpu_player=1.75 cpu_sub_tot=3.62 lo=0.047 idle=91.1%
+[12:01:31] [26/30] bag fastdds_shm f4 t2 rgb(rate=29.88Hz jit_p99=43.9ms) cpu_player=1.45 cpu_sub_tot=13.12 lo=0.04 idle=90.5%
+[12:02:13] [27/30] bag fastdds_noshm f4 t2 rgb(rate=29.84Hz jit_p99=44.085ms) cpu_player=1.94 cpu_sub_tot=13.09 lo=22.571 idle=90.5%
+[12:02:55] [28/30] bag cyclone_noshm f4 t2 rgb(rate=29.83Hz jit_p99=44.112ms) cpu_player=2.32 cpu_sub_tot=14.01 lo=0.035 idle=90.3%
+[12:03:37] [29/30] bag zenoh_noshm f4 t2 rgb(rate=29.83Hz jit_p99=44.186ms) cpu_player=2.85 cpu_sub_tot=14.71 lo=22.547 idle=90.4%
+[12:04:18] [30/30] bag zenoh_shm f4 t2 rgb(rate=29.84Hz jit_p99=44.071ms) cpu_player=2.04 cpu_sub_tot=14.61 lo=0.088 idle=90.5%
+[12:04:18] DONE bag
+[12:04:18] START qos: 20 cells (4194304B@5.0 f4)
+[12:05:03] [1/20] qos fastdds_shm best_effort f4 t0 loss=61.672% ach=5.0Hz deliv=1.84Hz lat_med=5.903ms idle=90.7%
+[12:05:47] [2/20] qos fastdds_noshm best_effort f4 t0 loss=46.969% ach=5.0Hz deliv=2.61Hz lat_med=6.712ms idle=89.3%
+[12:06:31] [3/20] qos cyclone_noshm best_effort f4 t0 loss=10.75% ach=5.0Hz deliv=4.46Hz lat_med=10.617ms idle=90.4%
+[12:07:14] [4/20] qos zenoh_noshm best_effort f4 t0 loss=0.0% ach=5.0Hz deliv=5.0Hz lat_med=10.07ms idle=90.5%
+[12:07:58] [5/20] qos zenoh_shm best_effort f4 t0 loss=0.0% ach=5.0Hz deliv=5.0Hz lat_med=5.091ms idle=90.7%
+[12:08:41] [6/20] qos fastdds_shm reliable f4 t0 loss=0.0% ach=5.0Hz deliv=5.0Hz lat_med=25.826ms idle=90.6%
+[12:09:25] [7/20] qos fastdds_noshm reliable f4 t0 loss=0.0% ach=5.0Hz deliv=5.0Hz lat_med=8.867ms idle=90.6%
+[12:10:09] [8/20] qos cyclone_noshm reliable f4 t0 loss=0.0% ach=5.0Hz deliv=5.0Hz lat_med=10.494ms idle=90.5%
+[12:10:53] [9/20] qos zenoh_noshm reliable f4 t0 loss=0.0% ach=5.0Hz deliv=5.0Hz lat_med=6.634ms idle=90.6%
+[12:11:37] [10/20] qos zenoh_shm reliable f4 t0 loss=0.0% ach=5.0Hz deliv=5.0Hz lat_med=5.099ms idle=90.7%
+[12:12:20] [11/20] qos fastdds_shm best_effort f4 t1 loss=66.964% ach=5.0Hz deliv=1.51Hz lat_med=5.823ms idle=91.2%
+[12:13:04] [12/20] qos fastdds_noshm best_effort f4 t1 loss=54.815% ach=5.0Hz deliv=2.21Hz lat_med=6.944ms idle=91.0%
+[12:13:48] [13/20] qos cyclone_noshm best_effort f4 t1 loss=13.568% ach=5.0Hz deliv=4.3Hz lat_med=9.349ms idle=90.6%
+[12:14:32] [14/20] qos zenoh_noshm best_effort f4 t1 loss=0.0% ach=5.0Hz deliv=5.0Hz lat_med=8.048ms idle=90.5%
+[12:15:15] [15/20] qos zenoh_shm best_effort f4 t1 loss=0.0% ach=5.0Hz deliv=5.0Hz lat_med=5.016ms idle=90.6%
+[12:15:59] [16/20] qos fastdds_shm reliable f4 t1 loss=0.0% ach=5.0Hz deliv=5.0Hz lat_med=25.76ms idle=90.6%
+[12:16:43] [17/20] qos fastdds_noshm reliable f4 t1 loss=0.0% ach=5.0Hz deliv=5.0Hz lat_med=8.689ms idle=90.4%
+[12:17:27] [18/20] qos cyclone_noshm reliable f4 t1 loss=0.0% ach=5.0Hz deliv=5.0Hz lat_med=10.684ms idle=90.4%
+[12:18:10] [19/20] qos zenoh_noshm reliable f4 t1 loss=0.0% ach=5.0Hz deliv=5.0Hz lat_med=10.342ms idle=90.3%
+[12:18:54] [20/20] qos zenoh_shm reliable f4 t1 loss=0.0% ach=5.0Hz deliv=5.0Hz lat_med=4.937ms idle=90.7%
+[12:18:54] DONE qos
+ALL ADDITIONS DONE
